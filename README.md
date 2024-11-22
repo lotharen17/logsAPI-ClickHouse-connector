@@ -1,4 +1,4 @@
-**Scrypt to:**
+**Script to:**
 
 1. Download Yandex.Metrika Logs API data (source and fields are specified in source_fields.json file; Metrika tag/counter and token are specified in token_counter.json file).
 2. Upload this TSV data to your local machine clickhouse (in case ssh_path variable is commented in script code) or to remote server through ssh (in case you uncomment ssh_path variable in source code).
